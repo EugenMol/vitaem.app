@@ -2,7 +2,7 @@ version: '3.6'
 services:
     portainer:
         container_name: vitaem.portainer-test
-        image: portainer/portainer-ce:2.20.2-alpine
+        image: portainer/portainer-ce:2.19.1-alpine
         restart: always
         ports:
         - '9001:9000'
