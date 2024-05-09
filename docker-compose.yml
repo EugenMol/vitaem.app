@@ -1,11 +1,11 @@
 version: '3.6'
 services:
     portainer:
-        container_name: vitaem.portainer
+        container_name: vitaem.portainer-test
         image: portainer/portainer-ce:2.20.2-alpine
         restart: always
         ports:
-        - '9000:9000'
+        - '9001:9000'
         volumes:
         - /var/run/docker.sock:/var/run/docker.sock
         - portainer_data:/data   
